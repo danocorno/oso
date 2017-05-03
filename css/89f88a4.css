@@ -18,3 +18,10 @@ margin: 0 auto;
 .figurecenter {
 margin:0 auto;
 }
+#announcementText {
+    border: #388282;
+    border-style: dashed;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
