@@ -25,4 +25,6 @@ margin:0 auto;
     padding: 1em;
     margin-bottom: 1em;
 }
-
+.nav-button {
+   background: url('/img/circles-bg.png') no-repeat;background-size:contain;  
+}
