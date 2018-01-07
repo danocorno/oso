@@ -1,14 +1,32 @@
 <!doctype html>
 <html>
+	<head>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <script>w3.includeHTML();</script>
 <div w3-include-html="https://danocorno.github.io/oso/head.htm"></div>
+	</head>
 <body>
 
 	<div w3-include-html="https://danocorno.github.io/oso/navigation.htm"></div>
 	<p>this is test page</p>
-<script>w3.includeHTML();</script>
+	<p id="jq">this is test jquery</p>
 	
+<script>w3.includeHTML();</script>
+<script>
+    $(document).ready(function() {
+
+    });
+</script>
+	<script>
+    $(document).ready(function() {
+        $('#jq')
+    });
+</script>
+	<script>
+    $(document).ready(function() {
+        $('#jq').load('https://danocorno.github.io/oso/navigation.htm');
+    });
+</script>
 </body>
 </html>
 
