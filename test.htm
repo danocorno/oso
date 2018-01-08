@@ -1,13 +1,11 @@
 <!doctype html>
 <html>
 	<head>
-<script src="https://www.w3schools.com/lib/w3.js"></script>
-<script>w3.includeHTML();</script>
-<div w3-include-html="https://danocorno.github.io/oso/head.htm"></div>
-		<xsl:template name="user.header.content">
-   <xsl:variable name="codefile" select="document('head.htm',/)"/>
-   <xsl:copy-of select="$codefile/htmlcode/node()"/>
-</xsl:template>
+		
+   <script type="text/javascript" src="oso/js/libs/jquery-3.2.1.min.js" ></script>
+   <script> 
+       $(function(){ $("head").load("head.htm") });
+   </script>
 
 	</head>
 <body>
