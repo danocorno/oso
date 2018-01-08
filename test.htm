@@ -1,35 +1,14 @@
 <!doctype html>
 <html>
 	<head>
-		
-   <script type="text/javascript" src="https://danocorno.github.io/oso/js/libs/jquery-1.7.2.min.js" ></script>
-   <script> 
-       $(function(){ $("head").load("https://danocorno.github.io/oso/head.htm") });
-   </script>
-
+<script>		
+document.getElementsByTagName("head")[0].appendChild('oso/head.htm')
+		</script>
 	</head>
 <body>
 
-	<div w3-include-html="https://danocorno.github.io/oso/navigation.htm"></div>
-	<p>this is test page</p>
-	<p id="jq">this is test jquery</p>
+hello world
 	
-<script>w3.includeHTML();</script>
-<script>
-    $(document).ready(function() {
-
-    });
-</script>
-	<script>
-    $(document).ready(function() {
-        $('#jq')
-    });
-</script>
-	<script>
-    $(document).ready(function() {
-        $('#jq').load('https://danocorno.github.io/oso/navigation.htm');
-    });
-</script>
 </body>
 </html>
 
