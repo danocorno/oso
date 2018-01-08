@@ -1,12 +1,28 @@
 <!doctype html>
 <html>
 	<head>
-<script>		
-document.getElementsByTagName("head")[0].appendChild('https://danocorno.github.io/oso/head.htm')
-		</script>
+<script>
+// Handle Loaded Imports
+functionhandleLoad(event) {
+console.log('Loaded import: ' + event.target.href);
+}
+ 
+// Handle Errors.
+functionhandleError(event) {
+console.log('Error loading import: ' + event.target.href);
+}
+</script>
+<link rel="import" href="https://danocorno.github.io/oso/head.htm" onload="handleLoad(event)" onerror="handleError(event)">
+
+
 	</head>
 <body>
-
+<script>
+var doc = document.querySelector('link[rel="import"]').import;
+// Grab DOM from doc.html's document.
+var text = doc.querySelector('.doc');
+document.head.appendChild(text.cloneNode(true));
+</script>
 hello world
 	
 </body>
