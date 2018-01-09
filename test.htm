@@ -21,7 +21,7 @@ console.log('Error loading import: ' + event.target.href);
 var doc = document.querySelector('link[rel="import"]').import;
 // Grab DOM from doc.html's document.
 var text = doc.querySelector('.doc');
-document.head.appendChild(text.cloneNode(true));
+document.body.appendChild(text.cloneNode(true));
 </script>
 hello world
 	
