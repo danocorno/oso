@@ -5,7 +5,7 @@
 .videofigure { text-align:center;position: relative; }
 
 .videofigure a {
-   background: url('/img/play-button.png');
+   background: url('/oso/img/play-button.png');
    height: 40px;
    width: 40px;
    top: 20px;
@@ -26,7 +26,7 @@ margin:0 auto;
     margin-bottom: 1em;
 }
 .nav-button {
-   background: url('/img/circles-bg.png') no-repeat;background-size:contain;  
+   background: url('/oso/img/circles-bg.png') no-repeat;background-size:contain;  
 }
 
 div.slide-left {
