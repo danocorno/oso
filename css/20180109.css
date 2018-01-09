@@ -25,9 +25,6 @@ margin:0 auto;
     padding: 1em;
     margin-bottom: 1em;
 }
-.nav-button {
-   background: url('/oso/img/circles-bg.png') no-repeat;background-size:contain;  
-}
 
 div.slide-left {
   width:100%;
@@ -47,4 +44,9 @@ div.slide-left p {
     margin-left: 0%;
     width: 100%;
   }
+}
+.nav-button {
+   background: url('/oso/img/circles-bg.png') no-repeat;background-size:contain;
+   float:left;
+   
 }
