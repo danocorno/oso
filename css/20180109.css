@@ -57,8 +57,7 @@ h2.nav-button {
 
 .nav-button {
     background: url(/oso/img/box-double-outline.png) no-repeat;
-    background-size: contain;
-    height: 4em;
+    background-size: contain
     width: 16.67%;
 }
 #navigation {
