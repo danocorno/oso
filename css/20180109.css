@@ -534,6 +534,16 @@ ul,ol{
 .width320 .smallViewRemove{
     display:none
 }
+.width320 #siteName{
+    display:block;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: auto;
+    padding: 0;
+    position: absolute;
+    width: auto;
+}
 .width320 .ofnote{
     max-width:100%;
     padding:0
