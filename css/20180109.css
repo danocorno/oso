@@ -1,3 +1,8 @@
+@font-face {
+ font-family: "Pacifico";
+ src: url("../fonts/pacifico.ttf") format("ttf");
+}
+
 @media print{
     *{
         -ms-filter:none!important;
@@ -588,8 +593,7 @@ ul,ol{
  #navigation {
      display: flex;
      justify-content: center;
-     margin-top: -2em;
-     margin-bottom: 1em;
+     margin-top: -1em;
 }
 #navigation a {
    font-family: 'Pacifico', cursive;
@@ -598,18 +602,18 @@ ul,ol{
     font-size: 0.5em;
     font-weight: 500;
     line-height: 1em;
-    padding: 0 1em;
+    padding: 0 0.5em;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
-    margin: 1em auto;
+    text-align: center;
+    margin-bottom: 0;
 }
 .nav-button-outer {
     border: groove orange;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
-    margin-right: 1em;
 }
  .nav-button-inner {
    border-style: groove; */
@@ -637,4 +641,3 @@ ul,ol{
      position:static;
      width:auto
 }
- 
