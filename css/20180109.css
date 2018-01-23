@@ -215,8 +215,8 @@
     background-repeat:no-repeat;
     font-size:1.1em;
     font-weight:900;
-    padding:1em 1em 1em 54px;
-    line-height:4em
+     padding: 0 0 0 1.5em;
+    background-size: contain;
 }
 .ofnote{
     background-color:#fff;
