@@ -592,31 +592,33 @@ ul,ol{
      margin-top: -2em;
      margin-bottom: 1em;
 }
+#navigation a {
+   font-family: 'Pacifico', cursive;
+}
  .nav-button {
-    color:white;
-     font-size: 0.5em;
-     font-weight: 500;
-     line-height: 1em;
-     padding: 1em 2em 1em 1em;
-     text-align: center;
-     width: 15%;
-     background-size: contain;
-     height: 4em;
-   -ms-transform: rotate(2deg); /* IE 9 */
-    -webkit-transform: rotate(2deg); /* Safari */
+    font-size: 0.5em;
+    font-weight: 500;
+    line-height: 1em;
+    padding: 0 1em;
+    -ms-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
+    margin: 1em auto;
 }
 .nav-button-outer {
-   background:orange;
-   -ms-transform: rotate(2deg); /* IE 9 */
-    -webkit-transform: rotate(2deg); /* Safari */
+    border: groove orange;
+    -ms-transform: rotate(2deg);
+    -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
+    margin-right: 1em;
+    height: 90%;
 }
  .nav-button-inner {
-   background:brown;
-   -ms-transform: rotate(-4deg); /* IE 9 */
-    -webkit-transform: rotate(-4deg); /* Safari */
+   border-style: groove; */
+    -ms-transform: rotate(-4deg);
+    -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg) scaleX(1.1);
+    border: groove brown;
 }
  .visuallyhidden{
      border:0;
