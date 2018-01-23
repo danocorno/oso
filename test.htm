@@ -84,13 +84,8 @@
 		</a>
 	</div>
 
-
-
-
-
-
-		<div class="content_b first">
-			<div class="toggle" id="toggleaboutus">
+<div class="content_b first toggle" id="toggleaboutus">
+			<div>
 				<h2 id="aboutus"><span class="visuallyhidden">About The Orlando Symphony Orchestra</span>
 					<img class="section_graphic" src="img/hd_orlsym.png" alt="Orlando Symphony Orchestra" width="219" height="78" />
 				</h2>
@@ -111,31 +106,27 @@
 					</p>
 			</div>
 		</div>
-		<div class="content_a">
-			
-
+		<div class="content_a toggle" id="toggledirector">
 			<div class="sectionheader">
 				<a href="#artisticDirector" onclick="toggle_visibility('toggledirector');"><h2 id="artisticDirector"><span class="visuallyhidden">Artistic Director</span>
 					<img class="section_graphic" src="img/hd_director.png" alt="Artistic Director" width="219" height="78" />	
 				</h2></a>
 			</div>		
-			<div class="toggle" id="toggledirector">
+			<div>
 				<div id="director" class="imgLeft"></div>	
 				<p>Jerry Weiss, violinist and violist, began studying violin at the age of 5 in Toronto, Canada. He has toured with the "Phantom of the Opera World Tour", the  Mantovani Orchestra during 4 tours of the Far East, the Buffalo Philharmonic , the New York Gilbert and Sullivan Players, the New York City Opera, and singer Ray Price.  Mr. Weiss has performed as concertmaster of numerous Broadway musicals, and has been a member of many ensembles, including the Niagara Symphony, Buffalo Philharmonic, Florida Symphony, Florida Philharmonic, the ARTPARK Orchestra, Flagler Symphony, Palm Beach Pops, and others.
 				</p>
-				
-				
 				<p>Jerry's extensive recording experience has included a performance of the Bach E Major Concerto which aired on BBC Scottish Radio, a duet with Jessica Simpson during ABC's New Year's Eve Special, and performances with N'Sync on the FOX Christmas Special and Kenny Loggins for the Children's Miracle Network.. Mr. Weiss has served on the faculties of Eastern Music Festival and Daemen College.
 				</p>
 			</div>
 		</div>
-		<div class="content_b">
+		<div class="content_b toggle" id="toggleagenda">
 			<div class="sectionheader">
 				<a href="#agenda" onclick="toggle_visibility('toggleagenda');"><h2 id="agenda"><span class="visuallyhidden">Calendar</span>
 					<img class="section_graphic" src="img/hd_agenda.png" alt="Agenda" width="219" height="78" />
 				</h2></a>
 			</div>		
-			<div class="toggle" id="toggleagenda">
+			<div>
 				<div class="ofnote">
 					<div class="ofnoteleft">
 						<div class="ofnotetop">
@@ -198,7 +189,7 @@
 												<li><a href="http://www.boonebraves.ocps.net/">Boone High School</a> Choirs with Orlando Symphony Orchestra Strings at Boone High School <span class="pendingdates" >2008 May 16</span></li>
 											</ul>	
 										</section>
-										<section class="ofnotecontent" id="videoGallery">
+				<section class="ofnotecontent" id="videoGallery">
 
 <figure class="videofigure">
 				<a href="https://www.youtube.com/v/jPc38NQ-Jm8" rel="shadowbox;width=853;height=480" title="Mass for the Children, by Rutter, with the Lake Nona Choirs, and Orlando Symphony. Justin Chase, and Courtney-Connelly: Directors November-2016">
@@ -323,25 +314,27 @@ Winter Park High School Choir with ORLANDO SYMPHONY ORCHESTRA Strings... at Wint
  -->
 			
 
-		<div class="content_a"><div class="sectionnarrow">
+		<div class="content_a toggle" id="toggleevent">
+			<div class="sectionnarrow">
 			<div class="sectionheader">
 				<a href="#event" onclick="toggle_visibility('toggleevent');"><h2 id="event"><span class="visuallyhidden">Your Event</span>
 					<img class="section_graphic" src="img/hd_event.png" alt="Your Event" width="219" height="78" />
 				</h2></a>
 			</div>		
-			<div class="toggle" id="toggleevent">
+			<div>
 				<div id="adminOne" class="imgLeft smallViewRemove"></div>
 					<p>Hire the Orlando Symphony Orchestra for your event.  Tell us about your Project / Convention / Recording. Call the symphony at <a href="tel:+14072288414">'407.228.8414'</a> or the business agent directly at <a href="tel:+14078968001">'407.896.8001'</a>.</p>
 				<div id="carnegie3" class="imgRight smallViewRemove"></div> 
 			</div><!-- end content_a --></div>
 		</div>
-		<div class="content_b"><div class="sectionnarrow">
+		<div class="content_b toggle" id="togglecontact">
+			<div class="sectionnarrow">
 			<div class="sectionheader">
 				<a href="#contact" onclick="toggle_visibility('togglecontact');"><h2 id="contact"><span class="visuallyhidden">Contact</span>
 				<img class="section_graphic" src="img/hd_contact.png" alt="Contact" width="219" height="78" />
 			</h2></a>
 			</div>		
-			<div class="toggle" id="togglecontact">
+			<div>
 				<div><div id="carnegie2" class="imgRight smallViewRemove"></div> 
 					<ul>
 						<li>Phone/Fax:&nbsp;&nbsp;<a href="tel:+14072288414">+1.407.228.8414</a></li>
@@ -351,13 +344,13 @@ Winter Park High School Choir with ORLANDO SYMPHONY ORCHESTRA Strings... at Wint
 				</div>
 			</div>
 		</div><!-- end content_b --></div>
-		<div class="content_a ligatures">
+		<div class="content_a ligatures toggle" id="togglelinks">
 			<div class="sectionheader">
 				<a href="#links" onclick="toggle_visibility('togglelinks');"><h2 id="links"><span class="visuallyhidden">Our Friends</span>
 						<img class="section_graphic" src="img/hd_ligatures.png" alt="Ligatures" width="219" height="78" />
 				</h2></a>
 			</div>		
-			<div class="toggle" id="togglelinks">
+			<div>
 				<div class="ligaturesSection"><span class="linksCategory">Media</span>
 					<ul>
 						<li>
@@ -614,7 +607,7 @@ Shadowbox.init({
 	function toggle_visibility(id) 
 		{
 		var winW = (window.innerWidth) ? window.innerWidth : document.documentElement.offsetWidth;
-		if (winW < 640)
+		if (winW < 64000)
 			{
 			$(".toggle").hide();
 			var e = document.getElementById(id);
