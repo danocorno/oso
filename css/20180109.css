@@ -586,7 +586,6 @@ ul,ol{
     }
 }
  #navigation {
-     height: 4em;
      display: flex;
      justify-content: center;
      margin-top: -2em;
@@ -611,7 +610,6 @@ ul,ol{
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
     margin-right: 1em;
-    height: 90%;
 }
  .nav-button-inner {
    border-style: groove; */
@@ -619,6 +617,7 @@ ul,ol{
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg) scaleX(1.1);
     border: groove brown;
+    height: 100%;
 }
  .visuallyhidden{
      border:0;
