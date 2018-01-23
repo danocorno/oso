@@ -593,15 +593,31 @@ ul,ol{
      margin-bottom: 1em;
 }
  .nav-button {
+    color:white;
      font-size: 0.5em;
      font-weight: 500;
      line-height: 1em;
      padding: 1em 2em 1em 1em;
      text-align: center;
      width: 15%;
-     background: url(/oso/img/box-double-outline.png) no-repeat;
      background-size: contain;
      height: 4em;
+   background:tranparent;
+   -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari */
+    transform: rotate(0deg);
+}
+.nav-button-outer {
+   background:orange;
+   -ms-transform: rotate(2deg); /* IE 9 */
+    -webkit-transform: rotate(2deg); /* Safari */
+    transform: rotate(2deg);
+}
+ .nav-button-inner {
+   background:brown;
+   -ms-transform: rotate(-4deg); /* IE 9 */
+    -webkit-transform: rotate(-4deg); /* Safari */
+    transform: rotate(-4deg);
 }
  .visuallyhidden{
      border:0;
