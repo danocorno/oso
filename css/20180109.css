@@ -1,6 +1,19 @@
 @font-face {
  font-family: "Pacifico";
- src: url("../fonts/pacifico.ttf") format("ttf");
+ src: url("../fonts/Pacifico.ttf") format("ttf");
+}
+
+@font-face {
+ font-family: "Shanti";
+ src: url("../fonts/Shanti-Regular.ttf") format("ttf");
+}
+
+@font-face {
+ font-family: "Parisian";
+  src: url("../fonts/parisian.ttf") format("ttf"),
+  src: url("../fonts/parisian.eot") format("eot"),
+  src: url("../fonts/parisian.svg") format("svg"),
+  src: url("../fonts/parisian.woff") format("woff");
 }
 
 @media print{
