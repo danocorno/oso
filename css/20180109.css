@@ -543,6 +543,12 @@ ul,ol{
     padding: 0;
     position: absolute;
     width: auto;
+    font-size: initial;
+    margin-top: -3.5em;
+    padding-top: 0.2em;
+}
+.width320 body{
+    margin-top: 3em;
 }
 .width320 .ofnote{
     max-width:100%;
