@@ -135,7 +135,8 @@
 #nonprofit{
     background:url('../img/carnegie1.jpg') no-repeat;
     height:112px;
-    width:150px
+    width:150px;
+    margin: 1em;
 }
 #sublogo,#logo,#footerBanner{
     max-width:698px;
