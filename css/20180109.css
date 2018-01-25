@@ -90,8 +90,13 @@
 }
 #director{
     background:url('../img/jerry-weiss-violin-tux-standing.jpg') no-repeat;
-    height:304px;
+    height:300px;
     width:200px
+}
+#chris-chen{
+    background:url('../img/chris-chen.jpg') no-repeat;
+    height:300px;
+    width:138px
 }
 #eventList{
     float:left;
