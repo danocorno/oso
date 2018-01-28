@@ -626,7 +626,7 @@ ul,ol{
  #navigation {
      display: flex;
      justify-content: center;
-     margin-top: -1em;
+     margin: -1em 1em 0 1em;
 }
 #navigation a {
    font-family: 'Pacifico', cursive;
@@ -653,10 +653,7 @@ ul,ol{
     flex: auto;
     margin-right: 1em;
 }
-.nav-button-outer:last-child {
-    margin-right: 0;
-}
- .nav-button-inner {
+.nav-button-inner {
    border-style: groove; */
     -ms-transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
