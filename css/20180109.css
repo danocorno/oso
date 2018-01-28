@@ -634,6 +634,7 @@ ul,ol{
 }
 #navigation a {
    font-family: 'Pacifico', cursive;
+    font-size: 1.5em;
 }
  .nav-button {
     font-size: 0.5em;
@@ -651,6 +652,8 @@ ul,ol{
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
+    flex: auto;
+    margin-right: 1em;
 }
  .nav-button-inner {
    border-style: groove; */
