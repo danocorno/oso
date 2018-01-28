@@ -652,8 +652,13 @@ ul,ol{
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
+    -ms-flex:auto;
+    -webkit-flex:auto;
     flex: auto;
     margin-right: 1em;
+}
+.nav-button-outer:last-child {
+    margin-right: 0;
 }
  .nav-button-inner {
    border-style: groove; */
