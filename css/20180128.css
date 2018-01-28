@@ -1,0 +1,920 @@
+@font-face
+{
+	font-family:parisian;
+	src:url(../fonts/parisian.eot?#iefix) format(embedded-opentype),url(../fonts/parisian.woff) format(woff),url(../fonts/parisian.ttf) format(truetype),url(../fonts/parisian.svg#parisian) format(svg);
+}
+
+#admitOne
+{
+	background:url(../img/admitone.gif) no-repeat;
+	height:76px;
+	width:150px;
+}
+
+#background
+{
+	background-image:url(../img/score.gif);
+	background-position:top center;
+	background-repeat:repeat-y;
+	background-size:100%;
+}
+
+#carnegie2
+{
+	background:url(../img/carnegie2.jpg) no-repeat;
+	height:185px;
+	width:240px;
+}
+
+#carnegie3
+{
+	background:url(../img/carnegie3.jpg) no-repeat;
+	height:138px;
+	width:240px;
+}
+
+#container
+{
+	margin:0 auto;
+	max-width:80%;
+	padding-bottom:3em;
+	width:100%;
+}
+
+#director
+{
+	background:url(../img/jerry-weiss-violin-tux-standing.jpg) no-repeat;
+	height:300px;
+	width:200px;
+}
+
+#chris-chen
+{
+	background:url(../img/chris-chen.jpg) no-repeat;
+	height:300px;
+	width:138px;
+}
+
+#eventList
+{
+	float:left;
+	padding:1em;
+	width:33%;
+}
+
+#eventList li
+{
+	font-size:.8em;
+	line-height:1.2em;
+	margin-bottom:2.4em;
+}
+
+#footerBanner
+{
+	background:url(../img/orlandoskyline2a.png) no-repeat;
+	background-size:contain;
+	height:268px;
+}
+
+#friendsOfMusic
+{
+	background:url(../img/carnegie.jpg) no-repeat;
+	height:119px;
+	width:200px;
+}
+
+#july4reh
+{
+	background:url(../img/os_reh_tmb.jpg) no-repeat;
+	height:89px;
+	width:150px;
+}
+
+#siteTitle
+{
+	margin:0 auto;
+	text-align:center;
+}
+
+#logo
+{
+	background:url(../img/logo.png) no-repeat;
+	background-size:contain;
+	height:159px;
+}
+
+#nonprofit
+{
+	background:url(../img/carnegie1.jpg) no-repeat;
+	height:112px;
+	margin:1em;
+	width:150px;
+}
+
+#sublogo,#logo,#footerBanner
+{
+	margin:0 auto;
+	max-width:698px;
+	width:100%;
+}
+
+#sublogo
+{
+	background:url(../img/orlandoskyline3.png) no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:283px;
+}
+
+#ticket
+{
+	background:url(../img/ticket_first_church_tmb.gif) no-repeat;
+	height:118px;
+	width:300px;
+}
+
+#videoGallery img
+{
+	height:100%;
+	width:100%;
+}
+
+#violin
+{
+	background:url(../img/jerryviolin.png) no-repeat;
+	height:100px;
+	width:150px;
+}
+
+.chromeframe
+{
+	background:#ccc;
+	color:#000;
+	margin:.2em 0;
+	padding:.2em 0;
+}
+
+.clearfix
+{
+	zoom:1;
+}
+
+.clearfix:after
+{
+	clear:both;
+}
+
+.clearfix:before,.clearfix:after
+{
+	content:"";
+	display:table;
+}
+
+.content_a
+{
+	background:linear-gradient(tobottom,rgba(252,216,216,1) 0 100%;
+	background-color:#fcd8d8;
+	clear:both;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcd8d8',endColorstr='#80dfdfdf',GradientType=0);
+	overflow:hidden;
+	padding:.5em 1em 1.5em;
+}
+
+.content_b
+{
+	background:linear-gradient(tobottom,rgba(223,223,223,0.5) 0 100%;
+	background-color:#dfdfdf;
+	clear:both;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80dfdfdf',endColorstr='#fcd8d8',GradientType=0);
+	overflow:hidden;
+	padding:.5em 1em 1.5em;
+}
+
+.hidden
+{
+	display:none!important;
+	visibility:hidden;
+}
+
+.imgLeft
+{
+	float:left;
+	margin:0 1em 1em 0;
+}
+
+.imgRight
+{
+	float:right;
+	margin:0 0 1em 1em;
+}
+
+.invisible
+{
+	visibility:hidden;
+}
+
+.ir
+{
+	background-color:transparent;
+	background-repeat:no-repeat;
+	border:0;
+	direction:ltr;
+	display:block;
+	line-height:0;
+	overflow:hidden;
+	text-align:left;
+	text-indent:-999em;
+}
+
+.ligaturesSection
+{
+	float:left;
+	margin-bottom:1em;
+	width:50%;
+}
+
+.linksCategory,.sectionTitle
+{
+	background-image:url(../img/circles.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	font-size:1.1em;
+	font-weight:900;
+	padding:0 0 0 1.5em;
+}
+
+.ofnote
+{
+	background-color:#fff;
+	clear:both;
+	margin:0 auto;
+	max-width:90%;
+	padding:1em;
+}
+
+.ofnote figcaption
+{
+	font-family:Verbena;
+	font-weight:900;
+	text-align:center;
+}
+
+.ofnote figure
+{
+	float:right;
+	margin-bottom:1em;
+	width:100%;
+}
+
+.ofnote li
+{
+	font-size:.9em;
+	margin-bottom:1em;
+}
+
+.ofnotebottom
+{
+	background-image:url(../img/boxlinehorizontal.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.ofnotecontent
+{
+	overflow:hidden;
+	padding:1em;
+}
+
+.ofnoteleft
+{
+	background-image:url(../img/boxlinevertical.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-size:1% 100%;
+	padding-top:1em;
+}
+
+.ofnoteright
+{
+	background-image:url(../img/boxlinevertical.png);
+	background-position:right bottom;
+	background-repeat:no-repeat;
+	background-size:1% 100%;
+	padding-bottom:1em;
+}
+
+.ofnotetop
+{
+	background-image:url(../img/boxlinehorizontal.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.toggle,.sectionheader
+{
+	display:block;
+}
+
+.visuallyhidden
+{
+	border:0;
+	clip:rect(0000);
+	height:1px;
+	margin:-1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px;
+}
+
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus
+{
+	clip:auto;
+	height:auto;
+	margin:0;
+	overflow:visible;
+	position:static;
+	width:auto;
+}
+
+::-moz-selection,::selection
+{
+	background:#fe57a1;
+	color:#fff;
+	text-shadow:none;
+}
+
+a
+{
+	color:#00e;
+}
+
+a:focus
+{
+	outline:thin dotted;
+}
+
+a:hover
+{
+	color:#06e;
+}
+
+a:hover,a:active
+{
+	outline:0;
+}
+
+a:visited
+{
+	color:#551a8b;
+}
+
+abbr[title]
+{
+	border-bottom:1px dotted;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section
+{
+	display:block;
+}
+
+audio,canvas,video
+{
+	display:inline;
+	zoom:1px;
+}
+
+audio:not([controls]),[hidden],.ir br
+{
+	display:none;
+}
+
+b,strong
+{
+	font-weight:700;
+}
+
+blockquote
+{
+	margin:1em 40px;
+}
+
+body
+{
+	font-family:Shanti,Fallback,sans-serif;
+	font-size:1em;
+	line-height:1.4em;
+	margin:0;
+}
+
+button,input
+{
+	line-height:normal;
+}
+
+button,input,select,textarea
+{
+	font-size:100%;
+	margin:0;
+	vertical-align:middle;
+}
+
+button,input[type=button],input[type=reset],input[type=submit]
+{
+	-webkit-appearance:button;
+	cursor:pointer;
+	overflow:visible;
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner
+{
+	border:0;
+	padding:0;
+}
+
+button[disabled],input[disabled]
+{
+	cursor:default;
+}
+
+dd
+{
+	margin:0 0 0 40px;
+}
+
+dfn
+{
+	font-style:italic;
+}
+
+fieldset
+{
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+figure,form
+{
+	margin:0;
+}
+
+hr
+{
+	border:0;
+	border-top:1px solid #ccc;
+	display:block;
+	height:1px;
+	margin:1em 0;
+	padding:0;
+}
+
+html
+{
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	font-size:100%;
+}
+
+html,button,input,select,textarea
+{
+	color:#222;
+	font-family:sans-serif;
+}
+
+img
+{
+	-ms-interpolation-mode:bicubic;
+	border:0;
+	vertical-align:middle;
+}
+
+input:invalid,textarea:invalid
+{
+	background-color:#f0dddd;
+}
+
+input[type=checkbox],input[type=radio]
+{
+	box-sizing:border-box;
+	height:13px;
+	padding:0;
+	width:13px;
+}
+
+input[type=search]
+{
+	-moz-box-sizing:content-box;
+	-webkit-appearance:textfield;
+	-webkit-box-sizing:content-box;
+	box-sizing:content-box;
+}
+
+input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-cancel-button
+{
+	-webkit-appearance:none;
+}
+
+ins
+{
+	background:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+label
+{
+	cursor:pointer;
+}
+
+legend
+{
+	border:0;
+	margin-left:-7px;
+	padding:0;
+	white-space:normal;
+}
+
+mark
+{
+	background:#ff0;
+	color:#000;
+	font-style:italic;
+	font-weight:700;
+}
+
+nav ul,nav ol
+{
+	list-style:none;
+	list-style-image:none;
+	margin:0;
+	padding:0;
+}
+
+p:first-letter
+{
+	font-family:parisian,Georgia,"Times New Roman",Times,serif;
+	font-size:300%;
+	vertical-align:baseline;
+}
+
+pre
+{
+	white-space:pre-wrap;
+	word-wrap:break-word;
+}
+
+pre,code,kbd,samp
+{
+	font-family:monospace,serif;
+	font-size:1em;
+}
+
+q
+{
+	quotes:none;
+}
+
+q:before,q:after
+{
+	content:none;
+}
+
+small
+{
+	font-size:85%;
+}
+
+sub
+{
+	bottom:-.25em;
+}
+
+sub,sup
+{
+	font-size:75%;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
+}
+
+sup
+{
+	top:-.5em;
+}
+
+svg:not(:root)
+{
+	overflow:hidden;
+}
+
+table
+{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+td
+{
+	vertical-align:top;
+}
+
+textarea
+{
+	overflow:auto;
+	resize:vertical;
+	vertical-align:top;
+}
+
+ul,ol
+{
+	margin:1em 0;
+	padding:0 0 0 2em;
+}
+
+.width320 ul,.width320 ol
+{
+	padding-left:0;
+}
+
+.width320 .ofnoteleft,.width320 .ofnoteright,.width320 .ofnotetop,.width320 .ofnotebottom
+{
+	background-image:none;
+	background-position:inherit;
+	background-repeat:no-repeat;
+	background-size:auto auto;
+	padding:0;
+}
+
+.width320 #background
+{
+	background:0;
+}
+
+.width320 #container
+{
+	max-width:100%;
+}
+
+.width320 #eventList
+{
+	float:none;
+	padding:0;
+	width:100%;
+}
+
+.width320 .smallViewRemove
+{
+	display:none;
+}
+
+.width320 #siteName
+{
+	clip:auto;
+	display:block;
+	font-size:initial;
+	height:auto;
+	margin:-3.5em 0 0;
+	overflow:auto;
+	padding:.2em 0 0;
+	position:absolute;
+	width:auto;
+}
+
+.width320 body
+{
+	margin-top:3em;
+}
+
+.width320 .ofnote
+{
+	max-width:100%;
+	padding:0;
+}
+
+.width320 .first
+{
+	padding-top:0;
+}
+
+.width320 .ligaturesSection
+{
+	float:none;
+	width:100%;
+}
+
+.width320 #videoGallery img
+{
+	height:182px;
+	width:320px;
+}
+
+.width320 .ofnotecontent
+{
+	padding:0;
+}
+
+#toggleaboutus
+{
+	display:block;
+}
+
+.videofigure
+{
+	position:relative;
+	text-align:center;
+}
+
+.videofigure a
+{
+	background:url(/oso/img/play-button.png);
+	height:40px;
+	left:20px;
+	top:20px;
+	width:40px;
+}
+
+.sectionnarrow
+{
+	margin:0 auto;
+	max-width:544px;
+}
+
+.figurecenter
+{
+	margin:0 auto;
+}
+
+#announcementText
+{
+	background:url(../img/orlando-symphony-orchestra-moonlight-kissimmee-lakefront-park-2017-05-96.jpg) no-repeat;
+	background-position:center;
+	background-size:contain;
+	border:#388282;
+	border-style:dashed;
+	height:283px;
+	margin-bottom:1em;
+	padding:1em;
+}
+
+div.slide-left
+{
+	overflow:hidden;
+	width:100%;
+}
+
+div.slide-left p
+{
+	animation:slide-left 10s;
+}
+
+to
+{
+	margin-left:0;
+	width:100%;
+}
+
+#navigation
+{
+	display:flex;
+	justify-content:center;
+	margin-top:-1em;
+}
+
+#navigation a
+{
+	font-family:Pacifico, cursive;
+	font-size:1.5em;
+}
+
+.nav-button
+{
+	-ms-transform:rotate(2deg);
+	-webkit-transform:rotate(2deg);
+	font-size:.5em;
+	font-weight:500;
+	line-height:1em;
+	margin-bottom:0;
+	padding:0 .5em;
+	text-align:center;
+	transform:rotate(2deg);
+}
+
+.nav-button-outer
+{
+	-ms-flex:auto;
+	-ms-transform:rotate(2deg);
+	-webkit-flex:auto;
+	-webkit-transform:rotate(2deg);
+	border:groove orange;
+	flex:auto;
+	margin-right:1em;
+	transform:rotate(2deg);
+}
+
+.nav-button-outer:last-child
+{
+	margin-right:0;
+}
+
+.nav-button-inner
+{
+	-ms-transform:rotate(-4deg);
+	-webkit-transform:rotate(-4deg);
+	border:groove #A52A2A;
+	border-style:groove;
+	height:100%;
+	transform:rotate(-4deg) scaleX(1.1);
+}
+
+.video-wrap
+{
+	height:0;
+	margin:0 auto;
+	max-width:1920px;
+	padding-bottom:56.25%;
+	padding-top:25px;
+	position:relative;
+}
+
+.video-wrap iframe
+{
+	height:100%;
+	left:0;
+	max-height:1080px;
+	position:absolute;
+	top:0;
+	width:100%;
+}
+
+@media print {
+	*
+	{
+		-ms-filter:none!important;
+		background:transparent!important;
+		box-shadow:none!important;
+		color:#000!important;
+		filter:none!important;
+		text-shadow:none!important;
+	}
+	
+	.ir a:after,a[href^=javascript:]:after,a[href^=#]:after
+	{
+		content:"";
+	}
+	
+	@page
+	{
+		margin:.5cm;
+	}
+	
+	a,a:visited
+	{
+		text-decoration:underline;
+	}
+	
+	a[href]:after
+	{
+		content:" (" attr(href) ")";
+	}
+	
+	abbr[title]:after
+	{
+		content:" (" attr(title) ")";
+	}
+	
+	h2,h3
+	{
+		page-break-after:avoid;
+	}
+	
+	img
+	{
+		max-width:100%!important;
+	}
+	
+	p,h2,h3
+	{
+		orphans:3;
+		widows:3;
+	}
+	
+	pre,blockquote
+	{
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	
+	thead
+	{
+		display:table-header-group;
+	}
+	
+	tr,img
+	{
+		page-break-inside:avoid;
+	}
+}
