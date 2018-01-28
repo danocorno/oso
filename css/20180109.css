@@ -245,11 +245,7 @@
     background-size: contain;
 }
 .ofnote{
-    background-color:#fff;
-    clear:both;
-    margin:0 auto;
-    max-width:90%;
-    padding:1em
+    margin-bottom:2em;
 }
 .ofnote figcaption{
     font-family:'Verbena';
