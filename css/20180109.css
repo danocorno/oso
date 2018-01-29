@@ -626,7 +626,8 @@ ul,ol{
  #navigation {
      display: flex;
      justify-content: center;
-     margin: -1em 1em 0 1em;
+     margin-top: -1em;
+     padding: 0 1em;
 }
 #navigation a {
    font-family: 'Pacifico', cursive;
@@ -644,7 +645,7 @@ ul,ol{
     margin-bottom: 0;
 }
 .nav-button-outer {
-    border: groove orange;
+    border: groove #870909;
     -ms-transform: rotate(2deg);
     -webkit-transform: rotate(2deg);
     transform: rotate(2deg);
@@ -658,7 +659,7 @@ ul,ol{
     -ms-transform: rotate(-4deg);
     -webkit-transform: rotate(-4deg);
     transform: rotate(-4deg) scaleX(1.1);
-    border: groove brown;
+    border: groove #874809;
     height: 100%;
 }
  .visuallyhidden{
