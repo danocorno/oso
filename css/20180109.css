@@ -709,3 +709,11 @@ ul,ol{
     /* color: #fff; */
     margin: 0 2px;
 }
+  #navigation {
+    position: fixed;
+    top: 0px;
+  }
+  * html #navigation {
+    position: absolute;
+    top: expression(document.body.scrollTop);
+  }
