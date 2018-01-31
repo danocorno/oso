@@ -696,3 +696,16 @@ ul,ol{
     height: 100%;
     max-height: 1080px;
 }
+.width320 #navigation a {
+    color: #fff;
+    font-size: 0.8em;
+}
+.width320 .nav-button-inner {
+    border: none;
+}
+.width320 .nav-button-outer {
+    border: none;
+    background: #870909;
+    /* color: #fff; */
+    margin: 0 2px;
+}
