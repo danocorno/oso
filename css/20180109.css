@@ -626,7 +626,6 @@ ul,ol{
  #navigation {
      display: flex;
      justify-content: center;
-     margin-top: -1em;
      padding: 0 1em;
 }
 #navigation a {
