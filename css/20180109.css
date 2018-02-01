@@ -715,3 +715,8 @@ ul,ol{
 #scroller{
  z-index:100
 }
+#donate-form{
+    position:absolute;
+    right:0;
+    padding-top:1em;
+}
