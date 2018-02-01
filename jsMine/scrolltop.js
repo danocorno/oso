@@ -4,10 +4,12 @@ function moveScroller() {
     		if (winW > 640)
     			{
                 		var sw = "80%";
+                        var dw = "100%";
     			}
     		else
     			{
     					var sw = "100%";
+                        var dw = "80%";
     			}			
     			
     
@@ -26,7 +28,8 @@ function moveScroller() {
         } else {
             $scroller.css({
                 position: "relative",
-                top: ""
+                top: "",
+                width:  dw
             });
         }
     };
