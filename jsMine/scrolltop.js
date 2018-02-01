@@ -9,7 +9,7 @@ function moveScroller() {
     		else
     			{
     					var sw = "100%";
-                        var dw = "80%";
+                        var dw = "100%";
     			}			
     			
     
