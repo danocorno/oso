@@ -9,7 +9,7 @@ function moveScroller() {
     			{
     					var sw = "100%";
     			}			
-    		}	
+    			
     
     var $anchor = $("#scroller-anchor");
     var $scroller = $('#scroller');
