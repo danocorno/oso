@@ -699,7 +699,7 @@ ul,ol{
 }
 .width320 #navigation a {
     color: #fff;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 .width320 #navigation {
     padding: 0.2em 1em;
@@ -711,6 +711,8 @@ ul,ol{
 .width320 .nav-button-outer {
     border: none;
     background: #870909;
+    margin: 0;
+    padding: 0;
 }
 #scroller{
  z-index:100
