@@ -699,6 +699,10 @@ ul,ol{
     color: #fff;
     font-size: 0.8em;
 }
+.width320 #navigation {
+    padding: 0.2em 1em;
+    background-color: #000;
+}
 .width320 .nav-button-inner {
     border: none;
 }
