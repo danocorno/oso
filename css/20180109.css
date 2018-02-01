@@ -716,7 +716,9 @@ ul,ol{
  z-index:100
 }
 #donate-form{
+    padding-top:1em;
+}
+.width320 #donate-form{
     position:absolute;
     right:0;
-    padding-top:1em;
 }
