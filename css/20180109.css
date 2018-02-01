@@ -624,12 +624,11 @@ ul,ol{
  #navigation {
      display: flex;
      justify-content: center;
-     padding: 0.5em;
      background-color:#fff;
 }
 #navigation a {
    font-family: 'Pacifico', cursive;
-    font-size: 1.5em;
+    font-size: 2em;
 }
  .nav-button {
     font-size: 0.5em;
@@ -650,7 +649,6 @@ ul,ol{
     -ms-flex:auto;
     -webkit-flex:auto;
     flex: auto;
-    margin-right: 1em;
 }
 .nav-button-inner {
    border-style: groove; */
