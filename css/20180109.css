@@ -721,3 +721,6 @@ ul,ol{
     position:absolute;
     right:0;
 }
+.content_a, .content_b, #navigation {
+    padding: 0 1em;
+}
