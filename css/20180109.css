@@ -725,13 +725,9 @@ ul,ol{
     padding: 0 1em;
 }
 #facebook-p {
-    display:block;
-    clear:both;
-    background-image:url('../img/facebook-icon-white.svg') no-repeat;
-    background-size:contain;
-    height:2em;
-    background-position:left;
-    padding-left:3em;    
+    background: url(../img/facebook-icon-white.svg) no-repeat;
+    background-size: contain;
+    padding-left: 3em;
 }
  
  
